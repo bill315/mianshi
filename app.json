@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/weather/weather",
+    "pages/main/main",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#004fa5",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#fff",
+    "backgroundColor": "#004fa5",
+    "borderStyle": "white",
+    "list": [
+      
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气",
+        "iconPath": "image/icon.png",
+        "selectedIconPath": "image/icon-HL.png"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "我的",
+        "iconPath": "image/icon.png",
+        "selectedIconPath": "image/icon-HL.png"
+      }
+    ]
+  }
+}

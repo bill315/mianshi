@@ -1,0 +1,18 @@
+<view class="list-header">
+	<view class="userinfo-pic">
+     <open-data type="userAvatarUrl" id="userinfo" ></open-data>
+	</view>
+	<view class="header-name">
+	  <open-data type="userNickName"></open-data>
+	</view>
+    <!-- 需要使用 button 来授权登录 -->
+  <!-- <button wx:if="{{canIUse}}" open-type="getUserInfo"         bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  <view wx:else>请升级微信版本</view> -->
+  <!-- <input type='text' value='{{inputText}}' bindinput='onInputText' /> -->
+    <view class="container">
+      <view class='row text_box'>
+      <input type='text' value='{{inputText}}' placeholder="请输入您的个人签名" bindinput='onInputText' class='text' />
+          <!-- <textarea bindinput='onInputText' class='text' name="content" value="{{inputText}}" placeholder="请输入您的个人签名" bindinput='onInputText' /> -->
+      </view>
+  </view>
+</view>
